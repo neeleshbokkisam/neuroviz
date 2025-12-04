@@ -1,6 +1,6 @@
 # 🧠 NeuroViz: Neural Network Learning Visualization
 
-An interactive Streamlit application that visualizes how a neural network learns to classify 2D data in real-time. Built entirely from scratch using NumPy (no PyTorch or TensorFlow) for educational purposes.
+An interactive Streamlit application that visualizes how a neural network learns to classify 2D data in real-time. Built entirely from scratch using NumPy (no PyTorch or TensorFlow).
 
 ## Features
 
@@ -90,14 +90,6 @@ The neural network is a fully connected (dense) network with:
 - **Sigmoid**: `f(x) = 1/(1 + e^(-x))` - Smooth gradients, can saturate
 - **Tanh**: `f(x) = tanh(x)` - Zero-centered, similar to sigmoid
 
-## Educational Value
-
-This project demonstrates:
-- How neural networks learn through gradient descent
-- The effect of different architectures on learning
-- How activation functions affect training
-- The relationship between loss and decision boundaries
-- Manual implementation of backpropagation
 
 ## License
 
